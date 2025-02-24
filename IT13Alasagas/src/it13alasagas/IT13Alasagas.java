@@ -1,20 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package it13alasagas;
 
-/**
- *
- * @author acer
- */
 public class IT13Alasagas {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Printing a greeting message
+        System.out.println("Hello, welcome to IT13Alasagas!");
+
+        // Performing some basic arithmetic
+        int firstNumber = 10;
+        int secondNumber = 5;
+
+        int sum = firstNumber + secondNumber;
+        int difference = firstNumber - secondNumber;
+        int product = firstNumber * secondNumber;
+        int quotient = firstNumber / secondNumber;
+
+        // Printing the results of the arithmetic operations
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
     }
-    
 }
